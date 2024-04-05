@@ -26,9 +26,6 @@ async function example() {
 
     // Déchiffrement
     const decryptedData = await decryptData(encryptedData, key);
-
-    console.log('Données originales :', data);
-    console.log('Données déchiffrées :', encryptedData);
 }
 
 example();
