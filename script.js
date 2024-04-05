@@ -41,5 +41,6 @@ function check() {
         }
     });
 
-    enter.value = "";
+    let form = document.getElementById("key");
+    form.value = ''
 }
