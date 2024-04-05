@@ -15,10 +15,16 @@
             <h2>À la recherche du trésor perdu du musée !</h2>
         </div>
 
-        <div id="treasureInput">
-            <input type="text" id="inputField" placeholder="Entrez la clé !">
-            <button onclick="checkInput">Prochain Indice</button>
-        </div>
+        <form id="form-container">
+            <div>
+                <label for="key">Entrez votre clé :</label>
+                <input type="text" id="key" name="key">
+            </div>
+
+            <div>
+                <input type="submit" value="Afficher le prochain indice">
+            </div>
+        </form>
     </main>
 </body>
 </html>
