@@ -14,9 +14,9 @@ function check() {
 
         switch (hashHex) {
             case '2fca346db656187102ce806ac732e06a62df0dbb2829e511a770556d398e1a6e':
-                console.log("Vous cherchez désormais le cône qui faisait danser vos grands-parents (ou arrière grands-parents) dans les années 20 mais qu’est-ce que cela pourrait être ?");
+                console.log("Je sers a générer des courants haute tension. Dans mon nom, il y a un personnage de Marvel Comics.");
                 let p1 = document.getElementById("1");
-                p1.innerHTML = "Vous cherchez désormais le cône qui faisait danser vos grands-parents (ou arrière grands-parents) dans les années 20 mais qu’est-ce que cela pourrait être ?";
+                p1.innerHTML = "Je sers a générer des courants haute tension. Dans mon nom, il y a un personnage de Marvel Comics.";
                 break;
             case '108c995b953c8a35561103e2014cf828eb654a99e310f87fab94c2f4b7d2a04f':
                 console.log('Je sers à faire avancer les petits bateaux et je deviens amnésique à l’extinction des ordinateurs, qui suis-je');
@@ -26,7 +26,7 @@ function check() {
             case '96061e92f58e4bdcdee73df36183fe3ac64747c81c26f6c83aada8d2aabb1864':
                 console.log('Je peux stocker jusqu’à 2GB et ma marque porte le nom d\'un genre musical, à vous de me trouver. (Code QR vers une musique de Jazz)');
                 let p3 = document.getElementById("3");
-                p3.innerHTML = "Je peux stocker jusqu’à 2GB et ma marque porte le nom d\'un genre musical, à vous de me trouver. (Code QR vers une musique de Jazz)";
+                p3.innerHTML = "Je peux stocker jusqu’à 2GB et mon modèle porte le nom d\'un genre musical, à vous de me trouver.";
                 break;
             case 'bc46aa72d175144d22f54f96a9d98729220d15bb0d419ee45f58a556cd9e2a25':
                 console.log('Je sers à tester des objets; ceux si sont parfois à vides, parfois en verre, parfois en cuivre, certains à la maison et d’autres dans les radios');
